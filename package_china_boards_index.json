@@ -9,23 +9,23 @@
       "help":{
         "online": "https://bifrost-electronic.dk/tutorials/"
       },
-      "platforms":[
+      "platforms": [
         {
           "name": "China_Boards AVR Boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/pbystrup/China_Boards.1.0.0/master/China_Boards.1.0.0-master.zip",
-          "archiveFileName": "China_Boards.1.0.0-master.zip",
-          "help": 
-          {
-            "online": "https://bifrost-electronic.dk/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          "url": "https://github.com/sparkfun/Arduino_Boards/raw/master/IDE_Board_Manager/sparkfunboards.1.1.5.tar.bz2",
+          "archiveFileName": "sparkfunboards.1.1.5.tar.bz2",
+          "checksum": "SHA-256:41f9728983e0dbab597bb46ddf00b5bac6cfec7c8f3771ecd1612dae58bb0366",
+          "size": "1162215",
+          "help": {
+            "online": "https://learn.sparkfun.com/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
           },
-          "boards": 
-          [
+          "boards": [
             {
               "name": "Pro Micro"
-            }
+            {
           ],
           "toolsDependencies": []
         }
