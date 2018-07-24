@@ -6,19 +6,17 @@
       "maintainer": "China_Boards Electronics",
       "websiteURL": "https://bifrost-electronic.dk",
       "email": "info@bifrost-electronic.dk",
-      "help": 
-      {
+      "help":{
         "online": "https://bifrost-electronic.dk/tutorials/"
       },
-      "platforms": 
-      [
+      "platforms":[
         {
           "name": "China_Boards AVR Boards",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/pbystrup/China_Boards.1.0.0/master/China_Boards.1.0.0-master.zip",
-          "archiveFileName": "China_Boards.1.0.0.zip",
+          "archiveFileName": "China_Boards.1.0.0-master.zip",
           "help": 
           {
             "online": "https://bifrost-electronic.dk/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
