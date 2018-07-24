@@ -1,0 +1,66 @@
+{
+  "packages": 
+  [
+    {
+      "name": "China_Boards",
+      "maintainer": "China_Boards Electronics",
+      "websiteURL": "https://bifrost-electronic.dk",
+      "email": "info@bifrost-electronic.dk",
+      "help": 
+      {
+        "online": "https://bifrost-electronic.dk/tutorials/"
+      },
+      "platforms": 
+      [
+        {
+          "name": "China_Boards AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/pbystrup/Arduino_Boards/raw/master/IDE_Board_Manager/China_Boardsboards.1.1.5.tar.bz2",
+          "archiveFileName": "China_Boards.1.0.0.tar.bz2",
+          "help": 
+          {
+            "online": "https://bifrost-electronic.dk/tutorials/installing-arduino-ide/board-add-ons-with-arduino-board-manager"
+          },
+          "boards": 
+          [
+            {
+              "name": "Pro Micro"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "bossac",
+          "version": "1.4.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/China_Boards/Arduino_Boards/raw/master/China_Boards/samd-tools/bossac/bossac-1.4.0-win.zip",
+              "archiveFileName": "bossac-1.4.0-win.zip",
+              "checksum": "SHA-256:BCA6503F5DBB1F96693AFD0701A759ECFB3BE5B9FB3F9D901CA17853B224F4EB",
+              "size": "314705"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/China_Boards/Arduino_Boards/raw/master/China_Boards/samd-tools/bossac/bossac-1.4.0-linux64.tar.bz2",
+              "archiveFileName": "bossac-1.4.0-linux64.tar.bz2",
+              "checksum": "SHA-256:BB8F398BF84C5F31880FE9A2C7AE0174592516CE4821B49744B426AA968ADA10",
+              "size": "225696"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/China_Boards/Arduino_Boards/raw/master/China_Boards/samd-tools/bossac/bossac-1.4.0-osx.tar.bz2",
+              "archiveFileName": "bossac-1.4.0-osx.tar.bz2",
+              "checksum": "SHA-256:D0F225846D7BC80A74324D783CDB35C42A7F85EAD73CC016C0CC767B0AA5E81C",
+              "size": "74461"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
